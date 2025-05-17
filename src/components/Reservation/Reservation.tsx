@@ -28,7 +28,7 @@ export default function Reservation() {
 
       <form
         onSubmit={handleSubmit}
-        className="bg-white shadow-md rounded-lg p-8 space-y-6"
+        className="bg-amber-50 shadow-md rounded-lg p-8 space-y-6"
       >
         <input
           name="name"

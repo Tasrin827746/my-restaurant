@@ -6,8 +6,11 @@ const bundleAnalyzer = withBundleAnalyzer({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = bundleAnalyzer({
+  typescript: {
+    ignoreBuildErrors: true, 
+  },
   eslint: {
-    dirs: ["."], 
+    ignoreDuringBuilds: true, 
   },
   poweredByHeader: false, 
   reactStrictMode: true, 

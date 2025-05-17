@@ -23,7 +23,7 @@ export default function Reservation() {
   };
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-20">
+    <div id='reserve' className="max-w-3xl mx-auto px-4 py-20">
       <h1 className="text-4xl font-bold font-serif mb-8 text-center">Reserve a Table</h1>
 
       <form

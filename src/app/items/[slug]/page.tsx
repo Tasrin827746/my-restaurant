@@ -34,7 +34,7 @@ export default function ItemPage({ params }: Props) {
             {item.price}
           </span>
 
-         <Link href="/reservation">
+         <Link href="/reservation#reserve">
   <button className="bg-primary text-white px-6 py-3 font-semibold rounded-full hover:bg-orange-700 transition">
     Reserve a Table
   </button>

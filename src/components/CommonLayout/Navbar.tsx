@@ -31,7 +31,7 @@ const Navbar = () => {
       <Link href="/" className={linkClass('/')}>Home</Link>
       <Link href="/menu" className={linkClass('/menu')}>Menu</Link>
       <Link href="/about" className={linkClass('/about')}>About Us</Link>
-      <Link href="/ratings" className={linkClass('/rating')}>Ratings</Link>
+      <Link href="/ratings" className={linkClass('/ratings')}>Ratings</Link>
       <Link href="/contact" className={linkClass('/contact')}>Contact</Link>
       <Link href="/reservation">
         <button className="bg-primary font-semibold text-black hover:text-white px-6 py-2 rounded-full hover:bg-orange-700 transition duration-300">
@@ -62,7 +62,7 @@ const Navbar = () => {
            <Link href="/" className={linkClass('/')}>Home</Link>
       <Link href="/menu" className={linkClass('/menu')}>Menu</Link>
       <Link href="/about" className={linkClass('/about')}>About Us</Link>
-      <Link href="/ratings" className={linkClass('/rating')}>Ratings</Link>
+      <Link href="/ratings" className={linkClass('/ratings')}>Ratings</Link>
       <Link href="/contact" className={linkClass('/contact')}>Contact</Link>
       <Link href="/reservation">
             <button className="w-full font-semibold bg-primary text-white py-2 rounded-full hover:bg-orange-700 transition duration-300">
